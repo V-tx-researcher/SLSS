@@ -39,7 +39,7 @@ O programa é um único arquivo HTML que abre no navegador (Chrome ou Edge recen
 
 1. **Extraia o ZIP completo** (não abra os arquivos de dentro do ZIP).
 2. Abra **`SLSS_Offline.html`** no navegador.
-3. Na aba **Áudio** (opcional), clique em **Carregar motor local** e selecione **`Motor_Whisper_Local.sigilo`**. O programa verifica o arquivo antes de usar. Esse arquivo não é enviado a ninguém.
+3. Na aba **Áudio** (opcional), baixe o motor pelo botão **Baixar motor (GitHub)** (ou use o arquivo do pacote), clique em **Carregar motor local** e selecione **`Motor_Whisper_Local.sigilo`**. O programa verifica o arquivo antes de usar. Esse arquivo não é enviado a ninguém.
 4. Escolha um áudio, confirme o idioma e clique em **Transcrever áudio localmente**. Também é possível colar uma transcrição existente direto na aba **Texto**.
 5. Revise a transcrição, marque a revisão e leve o texto à etapa **Texto**.
 6. Faça a varredura, revise as sugestões e as pistas contextuais e gere o texto protegido.

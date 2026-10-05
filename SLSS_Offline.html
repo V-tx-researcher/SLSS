@@ -72,7 +72,7 @@ SOFTWARE.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;sha256-ilbOa8WlDwxUg5c6/Mz0OUPYkoOvwkPb/NYMr4YcXDA=&#x27; &#x27;sha256-ihV5Zv+Z05JcxH6nTp9VyrM2CC95l6qQU84MymHA02s=&#x27; &#x27;sha256-Mc6TGWliFeldm9lBpml6MCteQDX0Ky4Foalcn9qMFTs=&#x27; &#x27;sha256-smOoMFhKMfUxSqCCWiOVPVgMfaTlKY8So2hhowlZnqM=&#x27; &#x27;sha256-Sd/x20VZccWU8SWoC4HOz9kN/ewPNGAuLxZ+RVuGPHM=&#x27; blob: &#x27;wasm-unsafe-eval&#x27;; style-src &#x27;sha256-HuJ3mDFUr38+zaOinQj4e6XizgDjHr7rLKg9SLVsYSc=&#x27;; img-src data:; connect-src blob:; worker-src blob:; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; frame-src &#x27;none&#x27;">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;sha256-ilbOa8WlDwxUg5c6/Mz0OUPYkoOvwkPb/NYMr4YcXDA=&#x27; &#x27;sha256-ihV5Zv+Z05JcxH6nTp9VyrM2CC95l6qQU84MymHA02s=&#x27; &#x27;sha256-Mc6TGWliFeldm9lBpml6MCteQDX0Ky4Foalcn9qMFTs=&#x27; &#x27;sha256-smOoMFhKMfUxSqCCWiOVPVgMfaTlKY8So2hhowlZnqM=&#x27; &#x27;sha256-Sd/x20VZccWU8SWoC4HOz9kN/ewPNGAuLxZ+RVuGPHM=&#x27; blob: &#x27;wasm-unsafe-eval&#x27;; style-src &#x27;sha256-SHc0XcfW11r9+RCAJiZUzfscPhy6mdL7ZkMu6Cp185g=&#x27;; img-src data:; connect-src blob:; worker-src blob:; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; frame-src &#x27;none&#x27;">
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="Transcrição local de áudio, proteção reversível de textos, prompts e reinserção no navegador.">
   <title>SLSS — Sigilo Local Serviço Social</title>
@@ -82,7 +82,7 @@ SOFTWARE.
 @media(max-width:760px){.shell{display:block}.sidebar{padding:16px 18px;border-right:0;border-bottom:1px solid var(--line);gap:14px}.brand{font-size:1.1rem}.brand-logo{width:32px;height:32px}.brand small{display:inline;margin-left:9px}.sidebar-note{display:none}.steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.steps button{padding:9px;font-size:.875rem}.workspace{padding:18px 14px}.equal-columns{grid-template-columns:1fr}header{align-items:flex-start;margin-bottom:18px}header button{font-size:.8125rem;max-width:175px}.notice{padding:12px 14px;font-size:.875rem;margin-bottom:19px}.notice summary{font-size:.8125rem}h1{font-size:1.45rem}.card{padding:17px}.page-title{flex-wrap:wrap;gap:10px}.quick-start{display:block}.actions button{font-size:.875rem}#sourceText{min-height:290px}#protectedText{min-height:310px}.table-wrap{max-height:520px}table{min-width:650px}.field-meta{align-items:flex-start;flex-wrap:wrap;gap:8px}.check-line{padding:12px;font-size:.875rem}.progress-head{flex-wrap:wrap}#toast{bottom:16px}.original-value{max-width:230px}}
 @media(prefers-reduced-motion:no-preference){button{transition:background .15s,border-color .15s}}
 .copy-helper{position:fixed;left:-9999px}
-</style>
+.button-like{display:inline-block;text-decoration:none;cursor:pointer;border:1px solid var(--line);background:var(--raised);color:var(--text);border-radius:8px;padding:10px 15px;font-weight:600;line-height:1.3}.button-like:hover{border-color:#69809a;background:#20344d}</style>
 </head>
 <body>
 <div class="shell">
@@ -99,7 +99,7 @@ SOFTWARE.
         <div class="page-title"><div><div class="eyebrow">Etapa 1 de 5 · opcional</div><h1>Transcreva no seu dispositivo</h1><p>O áudio é lido localmente. Nenhum upload ou chave de API.</p></div><span class="mini-stat">Whisper small · IA local</span></div>
         <div class="two-columns"><div class="card">
           <h2>Prepare o motor e o áudio</h2>
-          <p class="muted">Selecione <strong>Motor_Whisper_Local.sigilo</strong>, que acompanha o pacote. Esse arquivo contém o modelo e o motor públicos; não contém dados de pessoas.</p>
+          <p class="muted">Se ainda não tiver o motor, <a class="button-like" href="https://github.com/V-tx-researcher/SLSS/releases/download/v0.4.0/Motor_Whisper_Local.sigilo" download rel="noopener">Baixar motor (GitHub)</a> e depois selecione <strong>Motor_Whisper_Local.sigilo</strong> no botão abaixo. O motor é um arquivo público, com modelo e programa de reconhecimento; não contém dados de pessoas e não recebe o seu áudio.</p>
           <div class="actions"><label class="file-label">1. Carregar motor local<input id="motorFile" type="file" accept=".sigilo" aria-label="Carregar motor local"></label><label class="file-label">2. Selecionar áudio<input id="audioFile" type="file" accept="audio/*,.wav,.mp3,.m4a,.ogg,.flac,.webm" aria-label="Selecionar áudio local"></label></div>
           <label class="field-label section-spacer" for="audioLanguage">Idioma da gravação</label><select id="audioLanguage"><option value="portuguese">Português</option><option value="english">Inglês</option><option value="spanish">Espanhol</option><option value="auto">Detectar idioma</option></select>
           <div class="actions"><button class="primary" id="transcribeButton" disabled>Transcrever áudio localmente</button><button id="cancelAudio" disabled>Cancelar operação</button></div>
