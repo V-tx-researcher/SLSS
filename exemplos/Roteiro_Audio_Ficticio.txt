@@ -1,0 +1,3 @@
+Bom dia. Esta é uma reunião de teste em português. Maria Silva falou sobre o atendimento no serviço social. João Souza informou que não houve mudança no endereço. Todos os dados deste exemplo são fictícios.
+
+Voz sintética produzida localmente com eSpeak-NG. Nomes e fatos são fictícios. O sintetizador não faz parte do aplicativo.

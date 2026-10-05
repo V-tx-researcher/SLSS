@@ -1,0 +1,26 @@
+{
+  "name": "sigilo-local",
+  "version": "0.4.0",
+  "description": "Transcrição local de áudio e proteção reversível de textos com revisão humana",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/engine.test.cjs",
+    "test:ui": "node tests/ui.test.cjs",
+    "build:audio": "node build_audio.mjs",
+    "test:browser": "node tests/browser.test.cjs",
+    "test:iframe": "node tests/iframe.test.cjs",
+    "pretest:browser": "python build.py",
+    "pretest:iframe": "python build.py",
+    "test:audio": "node tests/audio-quality.test.cjs && node tests/audio-worker.test.cjs",
+    "test:audio-ui": "node tests/audio-ui-browser.test.cjs",
+    "pretest:audio-ui": "python build.py"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "@huggingface/transformers": "3.8.1",
+    "onnxruntime-web": "1.22.0-dev.20250409-89f8206ba4",
+    "esbuild": "0.25.10",
+    "fflate": "0.8.2",
+    "playwright": "1.56.1"
+  }
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Se você usar o SLSS em trabalhos acadêmicos, cite este software."
+title: "SLSS — Sigilo Local Serviço Social"
+version: "0.4.0"
+date-released: "2026-10-05"
+type: software
+license: MIT
+authors:
+  - family-names: Pereira
+    given-names: Vinícius Araújo
+    orcid: "https://orcid.org/0000-0003-3118-7069"
+keywords:
+  - Serviço Social
+  - sigilo profissional
+  - transcrição local
+  - pseudonimização
+  - LGPD
+repository-code: "https://github.com/V-tx-researcher/SLSS"

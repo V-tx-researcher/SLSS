@@ -1,0 +1,11 @@
+{
+  "versao": "0.4.0",
+  "suites": [
+    "test (15 motor de texto)",
+    "test:ui (19 DOM)",
+    "test:audio (9 repetição/término + 5 decodificador)",
+    "test:audio-ui (controles de áudio)"
+  ],
+  "resultado": true,
+  "observacao": "Verifica barreiras de repetição com saídas controladas, não acurácia."
+}

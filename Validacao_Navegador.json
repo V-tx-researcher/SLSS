@@ -1,0 +1,27 @@
+{
+  "browser": "141.0.7390.37",
+  "offline": true,
+  "versao": "0.4.0",
+  "results": [
+    {
+      "test": "motor whisper-small: fala real de 186 s no HTML final (SLSS_Offline.html)",
+      "wer": 0.135,
+      "palavrasRef": 318,
+      "errosPalavras": 43,
+      "requisicoesExternas": 0,
+      "transcricaoConcluida": true
+    },
+    {
+      "test": "motor original whisper-base: mesma fala (referência de comparação)",
+      "wer": 0.214,
+      "palavrasRef": 318,
+      "errosPalavras": 68,
+      "requisicoesExternas": 0
+    },
+    {
+      "test": "suite test:browser (revisão, proteção, reinserção, cancelamento, limpeza, motor alterado, rede)",
+      "passed": true
+    }
+  ],
+  "observacao": "Fala real de desenvolvimento (FLEURS pt_br, CC-BY 4.0). Não é medida de acurácia em reuniões reais."
+}

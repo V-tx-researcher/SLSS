@@ -1,0 +1,17 @@
+REUNIÃO FICTÍCIA — ARTICULAÇÃO DA REDE DE ATENDIMENTO
+Todos os acontecimentos, instituições e identificadores deste exemplo foram inventados. Os números de documentos e contatos são propositalmente inválidos para uso real.
+
+Em 03/09/2026, às 14h30, a assistente social Luana Moraes, do CRAS Jardim das Nuvens, reuniu-se com Rafael dos Santos e Rosa Oliveira, representantes da Escola Caminhos do Sol.
+
+Rafael dos Santos relatou que sua irmã, Mariana Almeida, de 38 anos, precisava reorganizar o acompanhamento na rede. Foi citado o Hospital Municipal Aurora. Mariana Almeida informou o e-mail mariana@example.invalid e o telefone (00) 90000-0000.
+
+Endereço informado: Rua das Nuvens, nº 123, Bairro Horizonte, Cidade Exemplo; CEP 00000-000.
+Documentos fictícios: CPF 000.000.000-00 e RG 00.000.000-0. Foram citados o prontuário FICT-2026-0001 e o protocolo TESTE-2026-0002.
+
+Rosa Oliveira sugeriu verificar a disponibilidade de atendimento no Instituto Horizonte Azul. Luana Moraes registrou que a sugestão dependia de confirmação. Não foi estabelecido prazo para o contato com a instituição.
+
+Mariana Almeida contou que é a única motorista de transporte escolar da pequena comunidade onde mora e que os vizinhos a chamam de Mimu. Essa informação contextual deverá ser revista antes de qualquer compartilhamento externo.
+
+Para conferir ambiguidades, considere duas frases: a paciente Rosa chegou ao serviço; a parede da sala é rosa. Na segunda frase, rosa indica uma cor.
+
+O grupo decidiu que Luana Moraes verificaria os horários de atendimento e que Rafael dos Santos apresentaria os documentos solicitados. A próxima reunião foi proposta para 10/09/2026, sem confirmação dos participantes.

@@ -1,0 +1,29 @@
+{
+  "versao": "0.4.0",
+  "audio": "FLEURS pt_br validation (CC-BY 4.0, uso de desenvolvimento, não distribuído)",
+  "base": {
+    "modelo": "onnx-community/whisper-base q8",
+    "trechos": "186 s, 14 trechos",
+    "palavras": 318,
+    "erros": 68,
+    "wer": 0.214,
+    "requisicoesExternas": 0
+  },
+  "small": {
+    "modelo": "onnx-community/whisper-small q8",
+    "trechos": "186 s, 14 trechos",
+    "palavras": 318,
+    "erros": 43,
+    "wer": 0.135,
+    "requisicoesExternas": 0
+  },
+  "small_partes": {
+    "modelo": "onnx-community/whisper-small q8, divisão automática em partes",
+    "trechos": "766 s, 60 trechos (dupla repetição), 3 partes",
+    "palavras": 1350,
+    "erros": 189,
+    "wer": 0.14,
+    "requisicoesExternas": 0,
+    "trechosNaoTranscritos": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "versao": "0.4.0",
+  "passed": true,
+  "teste": "iframe com sandbox, sem requisições HTTP",
+  "browser": "141.0.7390.37",
+  "offline": true,
+  "simulatedIframe": true,
+  "tests": [
+    "motor local no sandbox",
+    "silêncio sem palavras inventadas",
+    "áudio inválido sem alternativa de rede",
+    "nenhum postMessage para a página externa",
+    "limpeza encerra motor e remove arquivo"
+  ],
+  "httpRequests": 0
+}

@@ -1,0 +1,7 @@
+{
+  "filename": "Motor_Whisper_Local.sigilo",
+  "size": 168849438,
+  "sha256": "3c782c621222eda91f9d0ccf246a2b90758e0251ab50dcb984ba0be68b19fe61",
+  "model": "Whisper small multilingual q8",
+  "revision": "36050c46d777d46dc4b5f43f6d90574fc38f8732"
+}
